@@ -1,0 +1,361 @@
+/**index sayfası*/
+
+.profil{
+    border-radius: 50%;
+    box-shadow: 10px 2px 10px black;
+}
+
+
+ .navbar-nav .nav-item .nav-link:hover
+,.navbar-brand .fa-solid:hover{
+    color: #17a2b8;
+}
+
+
+
+footer .list-unstyled
+{
+    font-size: 1.1rem;
+    color:#6e7479;
+}
+
+footer .list-unstyled:hover
+{
+    font-size: 1.1rem;
+    color: #17a2b8!important;
+}
+
+
+.copyright
+{
+    background-color:#343a40;
+    color: #fff;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+
+.card:hover{
+    box-shadow: .1rem .1rem .1rem #17a2b8;
+}
+
+.social .fa-brands
+{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: .6rem 2.8rem;
+}
+
+
+.social .fa-brands:hover
+{
+    
+    color:#17a2b8;;
+}
+
+.list-unstyled .text-muted:hover
+{
+    color: #17a2b8!important;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.lead{
+    font-size: 1.2rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#212529;
+
+}
+
+.featurette .text-muted
+{
+   color: #566269!important; 
+    
+}
+
+
+
+
+@media (max-width:575.98px) 
+{ 
+   
+   
+    .lead, .featurette-heading
+    {
+        font-size: 1.1rem!important;
+        ;
+    }
+    .featurette-image
+    {
+        width: 22rem!important;
+        height:22rem!important;
+        margin-top: 1rem auto !important;
+        
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px)
+ { 
+    .lead, .featurette-heading
+    {
+        font-size: 1.3rem!important;
+        
+    }
+    .featurette-image
+    {
+        width: 25rem!important;
+        height:25rem!important;
+        margin: 1rem auto !important;
+    }
+}
+
+
+ @media (min-width: 768px) and (max-width: 991.98px)
+  {
+    .lead, .featurette-heading
+    {
+        font-size: 1.2rem!important;
+        
+    }
+    .featurette-image
+    {
+        width: 25rem!important;
+        height:25rem!important;
+        margin: 1rem auto !important;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{ 
+    .lead, .featurette-heading
+    {
+        font-size: 1.5rem!important;
+        
+    }
+    .featurette-image
+    {
+        width: 28rem!important;
+        height:28rem!important;
+        margin: 1rem auto !important;
+    }
+ }
+
+  
+
+
+
+
+
+/*about sayfası */
+
+
+
+
+/*freework.html */
+
+figure.zoom {
+    background-position: 50% 50%;
+    position: relative;
+    margin: 3rem auto;
+    border: 2px solid white;
+    box-shadow: -1px 5px 5px black;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    cursor: zoom-in;
+  }
+  
+  figure.zoom img:hover {
+    opacity: 0;
+  }
+  
+  figure.zoom img {
+    transition: opacity 0.5s;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  .container nav
+  {
+    float: right!important;
+    
+  }
+
+
+  
+  @media (max-width:575.98px) 
+  { 
+   .bd-example
+   {
+       width: 90%;
+       margin: auto;
+   }
+  .col-md-3 .zoom
+   {
+       width:100%;
+       margin:1.3rem auto ;
+   } 
+   
+   }
+   .upnav
+   {
+       width: 70%;
+      margin: 0 auto;
+   }
+  
+    
+
+  @media (min-width: 576px) and (max-width: 767.98px)
+   { 
+    .bd-example
+   {
+       width: 100%;
+   }
+  .col-md-3 .zoom
+   {
+     width: 100%;
+          
+    
+   }
+
+   .col-sm-4
+   {
+    margin-left:4rem;
+    width: 100%;
+   }
+   
+  
+   .upnav
+   {
+       width: 70%;
+      margin: 0 auto;
+   }
+ }
+
+ 
+   @media (min-width: 768px) and (max-width: 991.98px)
+    {
+      
+    .bd-example
+   {
+       width: 140%;
+       padding: .5rem;
+      
+   }
+ 
+   .col-sm-4
+   {
+    width: 40%;
+    margin-left: 5rem;
+   }
+   
+  
+   .upnav
+   {
+       width: 50%;
+      margin: 0 auto;
+   }
+ }
+    
+
+
+
+/*contact.html*/
+
+.harita {
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
+.harita iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 60% !important;
+}
+
+
+
+@media (max-width:575.98px) 
+{ 
+   .harita
+   {
+    width: 30rem;
+    height: 20rem;
+    margin: 0 auto ;
+   }
+
+   .list-group
+   {
+    font-size:.9rem;
+    margin:0;
+    padding:auto;
+   }
+
+   .needs-validation
+   {
+    font-size: .7rem;
+   }
+   
+}
+
+@media (min-width: 576px) and (max-width: 767.98px)
+
+{ 
+
+    .harita
+   {
+    width: 35rem;
+    height: 25rem;
+    margin: 0 auto ;
+   }
+
+   .list-group
+   {
+    font-size:1rem;
+    margin:0;
+    padding:auto;
+   }
+
+   .needs-validation
+   {
+    font-size: .9rem;
+   }
+    
+
+
+}
+ @media (min-width: 768px) and (max-width: 991.98px)
+  
+{
+    .harita
+    {
+     width: 40rem;
+     height: 30rem;
+     margin: 0 auto;
+    }
+ 
+    .list-group
+    {
+     font-size:1rem;
+     margin:0;
+     padding:auto;
+    }
+
+    .bd-example input
+    {
+     font-size: .8rem;
+     
+    }
+     
+}
+
+
+

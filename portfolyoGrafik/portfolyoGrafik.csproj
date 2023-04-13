@@ -105,26 +105,47 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
-    <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
-    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.min.css.map" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Ana.Master" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="GrafikTasarim\about.html" />
+    <Content Include="GrafikTasarim\contact.html" />
+    <Content Include="GrafikTasarim\freework.html" />
+    <Content Include="GrafikTasarim\img\design-creative-inspiration-art-style-concept.jpg" />
+    <Content Include="GrafikTasarim\img\icon\book-stack.png" />
+    <Content Include="GrafikTasarim\img\icon\idea.png" />
+    <Content Include="GrafikTasarim\img\icon\pen-tool.png" />
+    <Content Include="GrafikTasarim\img\img-card\capture-life-through-lens-photography-word-overlay-min.jpg" />
+    <Content Include="GrafikTasarim\img\img-card\creative-design-designer-man-working-min.jpg" />
+    <Content Include="GrafikTasarim\img\img-card\design-creativity-outline-plan-objective-concept-min.jpg" />
+    <Content Include="GrafikTasarim\img\img-card\man-editing-photos-computer-min.jpg" />
+    <Content Include="GrafikTasarim\img\img-card\social-media-marketing-concept-marketing-with-applications-min.jpg" />
+    <Content Include="GrafikTasarim\img\img-card\young-woman-working-animation-studio-min.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\23241.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235242.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235243.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235244.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235245.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235246.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235247.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235248.jpg" />
+    <Content Include="GrafikTasarim\img\img-creative\235249.jpg" />
+    <Content Include="GrafikTasarim\img\OVEDMU0.jpg" />
+    <Content Include="GrafikTasarim\img\professional-editor-doing-retouching-work-image.jpg" />
+    <Content Include="GrafikTasarim\img\profil.PNG" />
+    <Content Include="GrafikTasarim\img\profil1.png" />
+    <Content Include="GrafikTasarim\index.html" />
+    <Content Include="GrafikTasarim\javascript.js" />
+    <Content Include="GrafikTasarim\style.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -153,54 +174,24 @@
     <Content Include="Scripts\WebForms\WebForms.js" />
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
-    <Content Include="Site.Master" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
-    <Content Include="Site.Mobile.Master" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ana.Master.cs">
+      <DependentUpon>Ana.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ana.Master.designer.cs">
+      <DependentUpon>Ana.Master</DependentUpon>
+    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Contact.aspx.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contact.aspx.designer.cs">
-      <DependentUpon>Contact.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Site.Master.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Master.designer.cs">
-      <DependentUpon>Site.Master</DependentUpon>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Site.Mobile.Master.designer.cs">
-      <DependentUpon>Site.Mobile.Master</DependentUpon>
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -211,6 +202,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="fonts\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
